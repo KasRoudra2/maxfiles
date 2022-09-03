@@ -1,0 +1,7 @@
+Base source codes are collected from:
+https://github.com/htr-tech/zphisher
+https://github.com/An0nUD4Y/blackeye
+htpps://github.com/noob-hackers/sneakphish
+https://github.com/ignitech/AdvPhishing
+
+Currently, all websites are modified for pyphisher.

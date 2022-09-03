@@ -1,0 +1,3449 @@
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: table;
+}
+.clear,
+.clearfix::after {
+  clear: both;
+}
+.text-shadow {
+  text-shadow: 2px 0 3px rgba(0, 0, 0, 0.25);
+}
+.border-top-ellips {
+  border-top-left-radius: 50% 10px;
+  border-top-right-radius: 50% 10px;
+}
+.border-btm-ellips {
+  border-bottom-left-radius: 50% 10px;
+  border-bottom-right-radius: 50% 10px;
+}
+.border-top-wave {
+  border-top-left-radius: 17% 15px;
+  border-top-right-radius: 75% 20px;
+}
+.border-btm-wave {
+  border-bottom-left-radius: 17% 15px;
+  border-bottom-right-radius: 75% 20px;
+} /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: 0 0;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: 700;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: 700;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+legend,
+td,
+th {
+  padding: 0;
+} /*!
+ * Generated with CSS Flag Sprite generator (https://www.flag-sprites.com/)
+ */
+.flag {
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  background: url(https://cryptoair.ltd/../img/flags.png) no-repeat;
+}
+.flag.flag-ua {
+  background-position: 0 -11px;
+}
+.flag.flag-gb {
+  background-position: 0 0;
+}
+.flag.flag-us {
+  background-position: -16px -11px;
+}
+.flag.flag-ru {
+  background-position: -16px 0;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(https://cryptoair.ltd/../font/BebasNeueBold.eot);
+  src: url(https://cryptoair.ltd/../font/BebasNeueBoldd41d.eot?#iefix) format("embedded-opentype"),
+    url(https://cryptoair.ltd/../font/BebasNeueBold.woff) format("woff"),
+    url(https://cryptoair.ltd/../font/BebasNeueBold.ttf) format("truetype"),
+    url(https://cryptoair.ltd/../font/BebasNeueBold.svg#icon) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url(https://cryptoair.ltd/../font/TitilliumWebLight.eot);
+  src: url(https://cryptoair.ltd/../font/TitilliumWebLightd41d.eot?#iefix) format("embedded-opentype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebLight.woff) format("woff"),
+    url(https://cryptoair.ltd/../font/TitilliumWebLight.ttf) format("truetype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebLight.svg#icon) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url(https://cryptoair.ltd/../font/TitilliumWebRegular.eot);
+  src: url(https://cryptoair.ltd/../font/TitilliumWebRegulard41d.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebRegular.woff) format("woff"),
+    url(https://cryptoair.ltd/../font/TitilliumWebRegular.ttf) format("truetype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebRegular.svg#icon) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url(https://cryptoair.ltd/../font/TitilliumWebSemiBold.eot);
+  src: url(https://cryptoair.ltd/../font/TitilliumWebSemiBoldd41d.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebSemiBold.woff) format("woff"),
+    url(https://cryptoair.ltd/../font/TitilliumWebSemiBold.ttf) format("truetype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebSemiBold.svg#icon) format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url(https://cryptoair.ltd/../font/TitilliumWebBold.eot);
+  src: url(https://cryptoair.ltd/../font/TitilliumWebBoldd41d.eot?#iefix) format("embedded-opentype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebBold.woff) format("woff"),
+    url(https://cryptoair.ltd/../font/TitilliumWebBold.ttf) format("truetype"),
+    url(https://cryptoair.ltd/../font/TitilliumWebBold.svg#icon) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+.highlight {
+  color: #feb251;
+}
+.t1,
+h1 {
+  margin: 0 0 15px;
+  color: #3e3e3e;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.t4,
+h4 {
+  margin: 30px 0;
+}
+.page-title {
+  padding: 55px 0 10px;
+  text-align: center;
+  box-shadow: inset 0 30px 50px -35px #217297;
+  font-size: 17px;
+  font-weight: 300;
+}
+.bl-title {
+  margin: 35px 0;
+  color: #238fd1;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+}
+.bl-title:first-child,
+figure:first-child,
+p:first-child {
+  margin-top: 0;
+}
+.bl-title span {
+  position: relative;
+}
+.bl-title span::after,
+.bl-title span::before {
+  content: "";
+  display: block;
+  width: 1150px;
+  height: 1px;
+  background: #c1cee0;
+  position: absolute;
+  top: 50%;
+}
+.bl-title span::before {
+  right: calc(100% + 40px);
+}
+.bl-title span::after {
+  left: calc(100% + 40px);
+}
+.bl-title--lg {
+  color: #343535;
+  font-size: 24px;
+  font-weight: 600;
+}
+.txt-blue {
+  color: #2695d6;
+}
+.txt-green {
+  color: #61bc49;
+}
+.txt-gray {
+  color: #979797;
+}
+.txt-red {
+  color: #d52626;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row::after,
+.row::before {
+  content: "";
+  display: table;
+}
+.row::after {
+  clear: both;
+}
+.row.container {
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.row > * {
+  float: left;
+  padding: 0 15px;
+}
+.row .padding-col-1 {
+  padding-left: 95.83333333px;
+}
+.row .padding-col-2 {
+  padding-left: 191.66666667px;
+}
+.row .col-1 {
+  width: 95.83333333px;
+}
+.row .col-2 {
+  width: 191.66666667px;
+}
+.row .col-3 {
+  width: 287.5px;
+}
+.row .col-4 {
+  width: 383.33333333px;
+}
+.row .col-5 {
+  width: 479.16666667px;
+}
+.row .col-6 {
+  width: 575px;
+}
+.row .col-7 {
+  width: 670.83333333px;
+}
+.row .col-8 {
+  width: 766.66666667px;
+}
+.row .col-9 {
+  width: 862.5px;
+}
+.row .col-10 {
+  width: 958.33333333px;
+}
+.row .col-11 {
+  width: 1054.16666667px;
+}
+.row .col-12 {
+  width: 1150px;
+}
+.row .col-13 {
+  width: 1245.83333333px;
+}
+.row .col-14 {
+  width: 1341.66666667px;
+}
+.row .col-15 {
+  width: 1437.5px;
+}
+.row .col-percent-2 {
+  width: 50%;
+}
+.row .col-percent-3 {
+  width: 33.3333%;
+}
+.row--flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.row--flex > * {
+  float: none;
+  padding: 0 15px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  min-width: 1150px;
+  min-height: 100%;
+  height: 100%;
+  font: 400 16px/1.4 "Titillium Web", sans-serif;
+  background: #e8f1ff;
+  color: #606060;
+}
+a {
+  transition: all 0.3s;
+  color: #124f71;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+figure,
+p {
+  margin: 15px 0;
+}
+.link {
+  color: #feb251;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+.container {
+  width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container::after,
+.container::before {
+  content: "";
+  display: table;
+}
+.container::after {
+  clear: both;
+}
+.container-sm {
+  width: 740px;
+  margin: 0 auto;
+}
+.container-sm::after,
+.container-sm::before {
+  content: "";
+  display: table;
+}
+.container-sm::after {
+  clear: both;
+}
+.wrapper {
+  min-height: 100%;
+}
+.align-center {
+  text-align: center;
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
+.centered-bl {
+  margin: 0 auto;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.img-wr {
+  overflow: hidden;
+}
+figure figcaption {
+  margin-bottom: 15px;
+}
+.flex-wr {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.flex-wr__col {
+  padding: 0 12px;
+}
+.flex-wr__col:first-child,
+.form-inline > div:first-child,
+table td:first-child,
+table th:first-child {
+  padding-left: 0;
+}
+.flex-wr__col:last-child,
+.form-inline > div:last-child,
+table td:last-child,
+table th:last-child {
+  padding-right: 0;
+}
+.flex-wr__col--stretch,
+.form-el.form-withdraw .form-withdraw__inner div,
+form.form-withdraw .form-withdraw__inner div {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.txt-bl {
+  margin-top: 80px;
+}
+.side-wr {
+  width: 1150px;
+  margin-bottom: 75px;
+}
+.side-wr::after,
+.side-wr::before {
+  content: "";
+  display: table;
+}
+.side-wr::after {
+  clear: both;
+}
+.side-wr__side {
+  float: left;
+  width: 310px;
+  margin-right: 20px;
+}
+.side-wr__mid {
+  float: left;
+  width: 820px;
+}
+.bl-bg {
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dce5f4;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.page-nav {
+  cursor: default;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.page-nav > ul {
+  white-space: nowrap;
+}
+.page-nav__item {
+  display: inline-block;
+  color: #f3e4d9;
+  position: relative;
+}
+.page-nav__item > a {
+  display: block;
+  padding: 13px 19px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.page-nav__item--active > a,
+.page-nav__item:hover > a {
+  border-color: transparent;
+  box-shadow: 0 0 9px #ffda79, inset 0 0 16px #ffda79;
+  background-color: #ffb142;
+  color: #724f1e;
+}
+.page-nav__item--active > a .ic-sign,
+.page-nav__item:hover > a .ic-sign {
+  border-right-color: #724f1e;
+}
+.page-nav__item--active > a .ic-sign--up,
+.page-nav__item:hover > a .ic-sign--up {
+  background-image: url(https://cryptoair.ltd/../img/ic-sign-up--active.png);
+}
+.page-nav__item--active > a .ic-sign--in,
+.page-nav__item:hover > a .ic-sign--in {
+  background-image: url(https://cryptoair.ltd/../img/ic-sign-in--active.png);
+}
+.page-nav__item--sign {
+  margin-left: 15px;
+}
+.page-nav__item--sign + .page-nav__item--sign {
+  margin-left: 0;
+}
+.page-nav__item--sign > a {
+  padding-left: 53px;
+  border-color: #fff;
+  position: relative;
+}
+.ic-sign {
+  display: block;
+  width: 38px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-right: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -12px;
+}
+.ic-sign--up {
+  background-image: url(https://cryptoair.ltd/../img/ic-sign-up.png);
+}
+.ic-sign--in {
+  background-image: url(https://cryptoair.ltd/../img/ic-sign-in.png);
+}
+.side-nav {
+  background-color: #dee9f9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.page-nav > ul,
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.side-nav__item {
+  display: block;
+}
+.side-nav__item--active .side-nav__link {
+  background: #feb251;
+  color: #724f1e;
+  text-decoration: none;
+}
+.side-nav__link {
+  display: block;
+  padding: 17px 20px;
+  color: #7a7979;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.side-nav--colored .side-nav__link {
+  font-size: 28px;
+  color: #feb251;
+}
+.side-nav--colored .side-nav__link b,
+table th {
+  text-transform: uppercase;
+  color: #000;
+}
+.btn,
+.btn:hover {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  padding: 12px 20px;
+  border: 1px solid #299ad8;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2895d0;
+}
+.btn:hover {
+  background: #299ad8;
+  color: #fff;
+}
+.btn--sm,
+.btn-container .deposit-cancel-wrap > input--sm,
+.btn-container .deposit-process-wrap > input--sm {
+  height: 33px;
+  line-height: 33px;
+  padding: 0 20px;
+}
+.btn--lg,
+.btn-container .deposit-cancel-wrap > input--lg,
+.btn-container .deposit-process-wrap > input--lg {
+  min-width: 264px;
+}
+.btn--bl,
+.btn-container .deposit-cancel-wrap > input--bl,
+.btn-container .deposit-process-wrap > input--bl {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.btn--highlight {
+  border-color: transparent;
+  box-shadow: 0 0 9px #ffda79, inset 0 0 16px #ffda79;
+  background-color: #ffb142;
+  color: #724f1e;
+}
+.btn--highlight:hover,
+.btn-container .deposit-cancel-wrap > input--highlight:hover,
+.btn-container .deposit-process-wrap > input--highlight:hover {
+  color: #724f1e;
+  background-color: #ffb142;
+  box-shadow: 0 0 16px #ffda79, inset 0 0 16px #ffda79;
+}
+.btn--light,
+.btn-container .deposit-cancel-wrap > input--light,
+.btn-container .deposit-process-wrap > input--light {
+  border-color: #feb251;
+  color: #feb251;
+}
+.btn--light:hover,
+.btn-container .deposit-cancel-wrap > input--light:hover,
+.btn-container .deposit-process-wrap > input--light:hover {
+  background: #feb251;
+  color: #fff;
+}
+.btn--major-2:hover,
+.btn--major:hover {
+  border-color: transparent;
+  box-shadow: 0 0 9px #ffda79, inset 0 0 16px #ffda79;
+  background-color: #ffb142;
+  color: #724f1e;
+}
+.btn--major,
+.btn--major-2,
+.btn-container .deposit-cancel-wrap > input--major,
+.btn-container .deposit-cancel-wrap > input--major-2,
+.btn-container .deposit-process-wrap > input--major,
+.btn-container .deposit-process-wrap > input--major-2 {
+  border-color: #feb251;
+  background-color: #feb251;
+  color: #724f1e;
+}
+.btn--dark,
+.btn-container .deposit-cancel-wrap > input--dark,
+.btn-container .deposit-process-wrap > input--dark {
+  border-color: #217297;
+  background-color: #217297;
+  color: #a7cde2;
+}
+.btn--dark:hover,
+.btn-container .deposit-cancel-wrap > input--dark:hover,
+.btn-container .deposit-process-wrap > input--dark:hover {
+  border-color: #18526d;
+  background-color: #18526d;
+}
+.btn--default,
+.btn-container .deposit-cancel-wrap > input--default,
+.btn-container .deposit-process-wrap > input--default {
+  border-color: #c2c2c2;
+  background-color: #c2c2c2;
+  color: #717273;
+}
+.btn--default:hover,
+.btn-container .deposit-cancel-wrap > input--default:hover,
+.btn-container .deposit-process-wrap > input--default:hover {
+  border-color: #217297;
+  background-color: #217297;
+  color: #fff;
+}
+.btn-container .deposit-cancel-wrap > input--highlight,
+.btn-container .deposit-cancel-wrap > input--major-2:hover,
+.btn-container .deposit-cancel-wrap > input--major:hover,
+.btn-container .deposit-process-wrap > input--highlight,
+.btn-container .deposit-process-wrap > input--major-2:hover,
+.btn-container .deposit-process-wrap > input--major:hover,
+.mx--btn-highlight {
+  border-color: transparent;
+  box-shadow: 0 0 9px #ffda79, inset 0 0 16px #ffda79;
+  background-color: #ffb142;
+  color: #724f1e;
+}
+.payment-ic {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.payment-ic--18,
+.payment-ic--pm {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-pm.png);
+}
+.payment-ic--48,
+.payment-ic--btc {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-btc.png);
+}
+.payment-ic--bch .payment-ic--77 {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-bch.png);
+}
+.payment-ic--43,
+.payment-ic--py {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-payeer.png);
+}
+.payment-ic--56,
+.payment-ic--adv {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-adv.png);
+}
+.payment-ic--68,
+.payment-ic--lite {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-ltc.png);
+}
+.payment-ic--71,
+.payment-ic--dash {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-dash.png);
+}
+.payment-ic--69,
+.payment-ic--eth {
+  background-image: url(https://cryptoair.ltd/../img/ic-payment-round-eth.png);
+}
+.ic-sm {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.ic-lg--soc:hover,
+.ic-sm--soc:hover {
+  opacity: 0.8;
+}
+.ic-sm--fb {
+  background-image: url(https://cryptoair.ltd/../img/ic-soc-sm-fb.png);
+}
+.ic-sm--tw {
+  background-image: url(https://cryptoair.ltd/../img/ic-soc-sm-tw.png);
+}
+.ic-sm--time {
+  background-image: url(https://cryptoair.ltd/../img/ic-time.png);
+}
+.ic-sm--btc-rate {
+  background-image: url(https://cryptoair.ltd/../img/ic-btc-rate.png);
+}
+.ic-lg {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.ic-lg--fb {
+  background-image: url(https://cryptoair.ltd/../img/ic-soc-lg-fb.png);
+}
+.ic-lg--tw {
+  background-image: url(https://cryptoair.ltd/../img/ic-soc-lg-tw.png);
+}
+table {
+  width: 100%;
+  font-size: 17px;
+  color: #343535;
+  overflow: hidden;
+}
+table tr {
+  border-bottom: 1px solid #c0d7e4;
+}
+table th {
+  text-align: left;
+  height: auto;
+  padding: 0 15px 10px;
+  font-weight: 600;
+  color: #343535;
+}
+table td {
+  height: 49px;
+  padding: 8px 15px;
+  text-align: left;
+}
+table .col--no-wrap {
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.plan-details__table tr:last-child,
+table.table--simple tr:last-child {
+  border-bottom: none;
+}
+table.table--simple td:last-child,
+table.table--simple th:last-child {
+  text-align: right;
+}
+table.table--simple td:last-child {
+  font-weight: 600;
+  color: #217297;
+}
+table.table--lg td {
+  height: 79px;
+}
+.table-paging {
+  margin-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.table-paging__next,
+.table-paging__page,
+.table-paging__prev {
+  margin-right: 5px;
+}
+.table-paging__next a,
+.table-paging__page a,
+.table-paging__prev a {
+  padding: 5px 12px;
+  display: inline-block;
+  color: #343535;
+  background: #319ad5;
+  text-decoration: none;
+}
+.table-paging__next a:hover,
+.table-paging__page a:hover,
+.table-paging__prev a:hover {
+  background: #247daf;
+}
+.table-paging__page--current a {
+  color: #fff;
+  background: #feb251 !important;
+}
+.form-wr {
+  width: 520px;
+  margin: 35px auto;
+}
+.form-wr::after,
+.form-wr::before {
+  content: "";
+  display: table;
+}
+.form-wr::after {
+  clear: both;
+}
+.form-wr__col {
+  float: left;
+  width: 50%;
+  padding: 0 8px;
+}
+.form-wr__col:nth-child(2n + 1) {
+  clear: both;
+  padding-left: 0;
+}
+.form-wr__col:nth-child(2n) {
+  padding-right: 0;
+}
+.form-wr__col input,
+.page-footer__nav li,
+form .input--error + p.error {
+  margin-bottom: 10px;
+}
+.form-wr__col input:last-child {
+  margin-bottom: 20px;
+}
+.form-wr__btn-bl {
+  clear: both;
+  padding: 40px 0;
+  text-align: center;
+}
+.form-el label,
+.form-title,
+.label,
+form label {
+  display: block;
+  color: #525252;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.form-title {
+  color: #2c1a12;
+  margin-bottom: 25px;
+}
+.bitcoin-bl #placeforstatus,
+.form-comment {
+  font-size: 18px;
+}
+.form-msg {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.form-msg--error {
+  color: #feb251;
+}
+.form-link {
+  float: right;
+  color: #555;
+  font-size: 12px;
+}
+.input {
+  display: block;
+  width: 100%;
+  height: 44px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  padding: 7px 15px;
+  border: 1px solid #c1cee0;
+  border-radius: 4px;
+  outline: 0;
+}
+.input::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+.input:-ms-input-placeholder {
+  color: #cfcfcf;
+}
+.input::placeholder {
+  color: #cfcfcf;
+}
+.form-el.form--select-date label,
+form.form--select-date label {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.form-el.form-withdraw .form-withdraw__inner,
+form.form-withdraw .form-withdraw__inner {
+  width: 630px;
+  padding: 20px 25px;
+  margin: 30px auto;
+  background: #c3dff6;
+  border-radius: 4px;
+}
+.form-el.form-withdraw .form-withdraw__inner div:first-child,
+form.form-withdraw .form-withdraw__inner div:first-child {
+  width: 330px;
+}
+.form-el.form-withdraw .form-withdraw__btn,
+form.form-withdraw .form-withdraw__btn {
+  margin: 35px 0;
+  text-align: center;
+}
+.form-el.form-withdraw label,
+form.form-withdraw label {
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 300;
+}
+.form-el .input,
+.form-el input[type="email"],
+.form-el input[type="password"],
+.form-el input[type="text"],
+.form-el select,
+form .input,
+form input[type="email"],
+form input[type="password"],
+form input[type="text"],
+form select {
+  display: block;
+  width: 100%;
+  height: 44px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  padding: 7px 15px;
+  border: 1px solid #c1cee0;
+  border-radius: 4px;
+  outline: 0;
+}
+.form-el textarea,
+form textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  padding: 7px 15px;
+  border: 1px solid #c1cee0;
+  border-radius: 4px;
+  outline: 0;
+}
+.form-el .input::-webkit-input-placeholder,
+.form-el input[type="email"]::-webkit-input-placeholder,
+.form-el input[type="password"]::-webkit-input-placeholder,
+.form-el input[type="text"]::-webkit-input-placeholder,
+.form-el select::-webkit-input-placeholder,
+.form-el textarea::-webkit-input-placeholder,
+form .input::-webkit-input-placeholder,
+form input[type="email"]::-webkit-input-placeholder,
+form input[type="password"]::-webkit-input-placeholder,
+form input[type="text"]::-webkit-input-placeholder,
+form select::-webkit-input-placeholder,
+form textarea::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+.form-el .input:-ms-input-placeholder,
+.form-el input[type="email"]:-ms-input-placeholder,
+.form-el input[type="password"]:-ms-input-placeholder,
+.form-el input[type="text"]:-ms-input-placeholder,
+.form-el select:-ms-input-placeholder,
+.form-el textarea:-ms-input-placeholder,
+form .input:-ms-input-placeholder,
+form input[type="email"]:-ms-input-placeholder,
+form input[type="password"]:-ms-input-placeholder,
+form input[type="text"]:-ms-input-placeholder,
+form select:-ms-input-placeholder,
+form textarea:-ms-input-placeholder {
+  color: #cfcfcf;
+}
+.form-el .input::placeholder,
+.form-el input[type="email"]::placeholder,
+.form-el input[type="password"]::placeholder,
+.form-el input[type="text"]::placeholder,
+.form-el select::placeholder,
+.form-el textarea::placeholder,
+form .input::placeholder,
+form input[type="email"]::placeholder,
+form input[type="password"]::placeholder,
+form input[type="text"]::placeholder,
+form select::placeholder,
+form textarea::placeholder {
+  color: #cfcfcf;
+}
+.form-el .input + .captcha,
+.form-el .input + .select-wr,
+.form-el .input + input[type="email"],
+.form-el .input + input[type="password"],
+.form-el .input + input[type="text"],
+.form-el .input + label,
+.form-el .input + textarea,
+.form-el input[type="email"] + .captcha,
+.form-el input[type="email"] + .select-wr,
+.form-el input[type="email"] + input[type="email"],
+.form-el input[type="email"] + input[type="password"],
+.form-el input[type="email"] + input[type="text"],
+.form-el input[type="email"] + label,
+.form-el input[type="email"] + textarea,
+.form-el input[type="password"] + .captcha,
+.form-el input[type="password"] + .select-wr,
+.form-el input[type="password"] + input[type="email"],
+.form-el input[type="password"] + input[type="password"],
+.form-el input[type="password"] + input[type="text"],
+.form-el input[type="password"] + label,
+.form-el input[type="password"] + textarea,
+.form-el input[type="text"] + .captcha,
+.form-el input[type="text"] + .select-wr,
+.form-el input[type="text"] + input[type="email"],
+.form-el input[type="text"] + input[type="password"],
+.form-el input[type="text"] + input[type="text"],
+.form-el input[type="text"] + label,
+.form-el input[type="text"] + textarea,
+.form-el select + .captcha,
+.form-el select + .select-wr,
+.form-el select + input[type="email"],
+.form-el select + input[type="password"],
+.form-el select + input[type="text"],
+.form-el select + label,
+.form-el select + textarea,
+.form-el textarea + .captcha,
+.form-el textarea + .select-wr,
+.form-el textarea + input[type="email"],
+.form-el textarea + input[type="password"],
+.form-el textarea + input[type="text"],
+.form-el textarea + label,
+.form-el textarea + textarea,
+form .input + .captcha,
+form .input + .select-wr,
+form .input + input[type="email"],
+form .input + input[type="password"],
+form .input + input[type="text"],
+form .input + label,
+form .input + textarea,
+form input[type="email"] + .captcha,
+form input[type="email"] + .select-wr,
+form input[type="email"] + input[type="email"],
+form input[type="email"] + input[type="password"],
+form input[type="email"] + input[type="text"],
+form input[type="email"] + label,
+form input[type="email"] + textarea,
+form input[type="password"] + .captcha,
+form input[type="password"] + .select-wr,
+form input[type="password"] + input[type="email"],
+form input[type="password"] + input[type="password"],
+form input[type="password"] + input[type="text"],
+form input[type="password"] + label,
+form input[type="password"] + textarea,
+form input[type="text"] + .captcha,
+form input[type="text"] + .select-wr,
+form input[type="text"] + input[type="email"],
+form input[type="text"] + input[type="password"],
+form input[type="text"] + input[type="text"],
+form input[type="text"] + label,
+form input[type="text"] + textarea,
+form select + .captcha,
+form select + .select-wr,
+form select + input[type="email"],
+form select + input[type="password"],
+form select + input[type="text"],
+form select + label,
+form select + textarea,
+form textarea + .captcha,
+form textarea + .select-wr,
+form textarea + input[type="email"],
+form textarea + input[type="password"],
+form textarea + input[type="text"],
+form textarea + label,
+form textarea + textarea {
+  margin-top: 20px;
+}
+.form-el .input.input--active,
+.form-el .input:focus,
+.form-el input[type="email"].input--active,
+.form-el input[type="email"]:focus,
+.form-el input[type="password"].input--active,
+.form-el input[type="password"]:focus,
+.form-el input[type="text"].input--active,
+.form-el input[type="text"]:focus,
+.form-el select.input--active,
+.form-el select:focus,
+.form-el textarea.input--active,
+.form-el textarea:focus,
+form .input.input--active,
+form .input:focus,
+form input[type="email"].input--active,
+form input[type="email"]:focus,
+form input[type="password"].input--active,
+form input[type="password"]:focus,
+form input[type="text"].input--active,
+form input[type="text"]:focus,
+form select.input--active,
+form select:focus,
+form textarea.input--active,
+form textarea:focus {
+  border-color: #5090b0;
+}
+.form-el .input:disabled,
+.form-el input[type="email"]:disabled,
+.form-el input[type="password"]:disabled,
+.form-el input[type="text"]:disabled,
+.form-el select:disabled,
+.form-el textarea:disabled,
+form .input:disabled,
+form input[type="email"]:disabled,
+form input[type="password"]:disabled,
+form input[type="text"]:disabled,
+form select:disabled,
+form textarea:disabled {
+  opacity: 0.5;
+}
+.form-el .input.input--error,
+.form-el input[type="email"].input--error,
+.form-el input[type="password"].input--error,
+.form-el input[type="text"].input--error,
+.form-el select.input--error,
+.form-el textarea.input--error,
+form .input.input--error,
+form input[type="email"].input--error,
+form input[type="password"].input--error,
+form input[type="text"].input--error,
+form select.input--error,
+form textarea.input--error {
+  border-color: #d5231b;
+  color: #d5231b;
+}
+.form-el .input.input--sm,
+.form-el input[type="email"].input--sm,
+.form-el input[type="password"].input--sm,
+.form-el input[type="text"].input--sm,
+.form-el select.input--sm,
+.form-el textarea.input--sm,
+form .input.input--sm,
+form input[type="email"].input--sm,
+form input[type="password"].input--sm,
+form input[type="text"].input--sm,
+form select.input--sm,
+form textarea.input--sm {
+  width: 179px;
+}
+.form-el .input.input--md,
+.form-el input[type="email"].input--md,
+.form-el input[type="password"].input--md,
+.form-el input[type="text"].input--md,
+.form-el select.input--md,
+.form-el textarea.input--md,
+form .input.input--md,
+form input[type="email"].input--md,
+form input[type="password"].input--md,
+form input[type="text"].input--md,
+form select.input--md,
+form textarea.input--md {
+  width: 225px;
+}
+.form-el .input.input--lg,
+.form-el input[type="email"].input--lg,
+.form-el input[type="password"].input--lg,
+.form-el input[type="text"].input--lg,
+.form-el select.input--lg,
+.form-el textarea.input--lg,
+form .input.input--lg,
+form input[type="email"].input--lg,
+form input[type="password"].input--lg,
+form input[type="text"].input--lg,
+form select.input--lg,
+form textarea.input--lg {
+  height: 45px;
+  padding: 10px 15px;
+}
+.form-el .input.input--bordered,
+.form-el input[type="email"].input--bordered,
+.form-el input[type="password"].input--bordered,
+.form-el input[type="text"].input--bordered,
+.form-el select.input--bordered,
+.form-el textarea.input--bordered,
+form .input.input--bordered,
+form input[type="email"].input--bordered,
+form input[type="password"].input--bordered,
+form input[type="text"].input--bordered,
+form select.input--bordered,
+form textarea.input--bordered {
+  border-color: #000;
+}
+.form-el .input.input--inline,
+.form-el input[type="email"].input--inline,
+.form-el input[type="password"].input--inline,
+.form-el input[type="text"].input--inline,
+.form-el select.input--inline,
+.form-el textarea.input--inline,
+form .input.input--inline,
+form input[type="email"].input--inline,
+form input[type="password"].input--inline,
+form input[type="text"].input--inline,
+form select.input--inline,
+form textarea.input--inline {
+  display: inline-block;
+}
+.form-el textarea,
+form textarea {
+  line-height: 1.3;
+  height: 150px;
+  resize: vertical;
+}
+.form-el .captcha + .btn,
+.form-el .row + .row,
+.form-el input + .btn,
+.form-el select + .btn,
+.form-el textarea + .btn,
+form .captcha + .btn,
+form .row + .row,
+form input + .btn,
+form select + .btn,
+form textarea + .btn {
+  margin-top: 20px;
+}
+.select-wr {
+  position: relative;
+}
+.select-wr select {
+  padding-right: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select-wr select::-ms-expand {
+  display: none;
+}
+.select-wr::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(https://cryptoair.ltd/../img/ic-dropdown-arr.png) center no-repeat;
+  pointer-events: none;
+}
+.select-wr + label {
+  margin-top: 30px;
+}
+.select-wr--simple select {
+  padding-left: 0;
+  border: none;
+  background: 0 0;
+}
+.select-date-wr input {
+  padding-right: 40px;
+  background: url(https://cryptoair.ltd/../img/ic-datepicker-select.html) center right 10px no-repeat;
+}
+.check-item,
+.radio-item {
+  overflow: hidden;
+  margin: 20px 0;
+}
+.check-item + .check-item,
+.radio-item + .radio-item {
+  margin-bottom: 25px;
+}
+.check-item input,
+.radio-item input {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -9999px;
+}
+.check-item label,
+.radio-item label {
+  position: relative;
+  display: block;
+  min-height: 23px;
+  line-height: 23px;
+  padding-left: 45px;
+  margin: 0;
+  font-size: 15px;
+}
+.check-item label::before {
+  border-radius: 2px;
+}
+.check-item label::before,
+.radio-item label::before {
+  content: "";
+  display: block;
+  width: 23px;
+  height: 23px;
+  border: 2px solid #2791ca;
+  padding: 2px;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 12px);
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.check-item label .payment-ic-full,
+.radio-item label .payment-ic-full {
+  vertical-align: top;
+}
+.check-item label a,
+.radio-item label a {
+  color: #299ad8;
+}
+.check-item input:checked + label::after,
+.radio-item input:checked + label::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(https://cryptoair.ltd/../img/ic-check.png) center no-repeat;
+  position: absolute;
+  left: 2px;
+  top: calc(50% - 9px);
+}
+.radio-item label::before {
+  border-radius: 50%;
+  border-color: #000;
+}
+.radio-item input:checked + label::before {
+  border-color: #feb251;
+}
+.radio-item input:checked + label::after {
+  border-radius: 50%;
+  background: #feb251;
+}
+.form-inline,
+.radio-line {
+  -ms-flex-align: center;
+  align-items: center;
+}
+.radio-line {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.radio-line .radio-item {
+  margin: 5px;
+}
+.form-inline {
+  width: 100%;
+  margin: 30px 0;
+}
+.form-inline > div {
+  padding: 0 10px;
+}
+.form-inline label {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.captcha,
+.form-inline {
+  display: -ms-flexbox;
+  display: flex;
+}
+.captcha input {
+  margin-top: 0 !important;
+}
+.captcha__img {
+  min-width: 115px;
+  height: 44px;
+  padding: 0 10px;
+  margin-right: 10px;
+  line-height: 36px;
+  background-color: #fff;
+  border: 1px solid #c1cee0;
+  border-radius: 4px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.captcha__img img {
+  vertical-align: middle;
+}
+.select-date {
+  position: relative;
+}
+.select-date:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 48px;
+  background: url(https://cryptoair.ltd/../img/ic-datepicker.html) left center no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.select-date input:not([type="checkbox"]):not([type="radio"]) {
+  width: 180px;
+  padding-right: 60px;
+  font-size: 14px;
+}
+.plan-wr {
+  padding: 50px 0;
+  background: #dee9f9;
+}
+.plan-card {
+  float: left;
+  width: 250px;
+  height: 290px;
+  padding: 20px 22px;
+  margin: 0 15px 26px;
+  box-shadow: 0 0 7px rgba(221, 222, 223, 0.5);
+  border: 1px solid #dce6f7;
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+  z-index: 20;
+}
+.plan-card ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+.plan-card ul li {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.plan-card__row .col-6:nth-child(2n + 1) {
+  clear: both;
+}
+.plan-card:hover .plan-card__head {
+  background-color: #319ad5;
+  box-shadow: 0 14px 10px -10px rgba(49, 154, 213, 0.89);
+}
+.plan-card__head {
+  padding: 13px 15px 12px;
+  margin-bottom: 25px;
+  background-color: #feb251;
+  border-radius: 4px;
+  box-shadow: 0 14px 10px -10px rgba(254, 178, 81, 0.89);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s background-color;
+  color: #724f1e;
+  line-height: 0.8;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 32px;
+}
+.plan-card__percent {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  line-height: 1;
+}
+.plan-card__deposit {
+  padding: 16px 0;
+  margin-top: 16px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5d5d5c;
+  font-size: 16px;
+}
+.plan-card__btn {
+  height: 52px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: -26px;
+}
+.plan-card__body {
+  width: 250px;
+  min-height: 290px;
+  position: relative;
+  -ms-flex: none;
+  flex: none;
+}
+.plan-card__details {
+  display: none;
+  -ms-flex: auto;
+  flex: auto;
+  margin: 0 0 0 20px;
+}
+.plan-card--large,
+.plan-over {
+  display: -ms-flexbox;
+  display: flex;
+}
+.plan-card--large {
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 50px;
+}
+.plan-card--large .plan-card__body {
+  width: 200px;
+  min-height: 270px;
+}
+.plan-card--large .plan-card__details {
+  display: block;
+}
+.plan-card--large .plan-card__btn {
+  bottom: -43px;
+}
+.plan-card--simple:hover .plan-card__overlay {
+  display: none;
+}
+.plan-over {
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 22px;
+  border-radius: 4px;
+  background: #fff url(https://cryptoair.ltd/../img/bg-plan-overlay.jpg) center no-repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 21;
+}
+.plan-over__percent,
+.plan-over__txt {
+  font-family: "Bebas Neue", sans-serif;
+  color: #9b9b9b;
+}
+.plan-over__percent {
+  line-height: 0.8;
+  font-size: 74px;
+}
+.plan-over__txt {
+  font-size: 32px;
+}
+.plan-over__btn {
+  background-color: #9b9b9b;
+  border: none;
+  color: #fff;
+}
+.plan-details__title {
+  color: #4c4c4c;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.plan-details__table {
+  margin-top: 15px;
+  color: #5d5d5c;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+}
+.plan-details__table td {
+  height: 39px;
+  padding: 0 10px;
+  white-space: nowrap;
+  color: #5d5d5c;
+}
+.plan-details__table td:last-child {
+  color: #5d5d5c;
+}
+.alert {
+  padding: 15px 30px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.2;
+  border-radius: 4px;
+  background-color: #f8f6f5;
+}
+.alert + .alert {
+  margin: 30px 0;
+}
+.alert--warning,
+.owl-dot.active span {
+  background-color: #feb251;
+}
+.alert--info {
+  background-color: #d1eaff;
+}
+.alert--secure {
+  padding-left: 100px;
+  background-image: url(https://cryptoair.ltd/../img/ic-alert-secure.png);
+  background-position: center left 20px;
+  background-repeat: no-repeat;
+}
+.page-header {
+  background: #319ad5 url(https://cryptoair.ltd/../img/bg-blue.png) center top no-repeat;
+  color: #fff;
+  cursor: default;
+  position: relative;
+  z-index: 5;
+}
+.page-header__bar {
+  height: 45px;
+  background: #257db8;
+  font-size: 12px;
+}
+.page-header__bar .flex-wr {
+  height: 45px;
+}
+.page-header__main {
+  padding: 42px 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.page-header__logo {
+  width: 257px;
+}
+.page-header__logo img {
+  display: block;
+  max-width: 100%;
+}
+.page-header__lang {
+  padding-left: 20px;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.h-rate span {
+  color: #9ccae4;
+}
+.h-rate b {
+  font-weight: 400;
+}
+.lang,
+.rate-btn {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.rate-btn {
+  display: block;
+  padding: 0 18px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+  background: #248cd1 linear-gradient(#257db8, #248cd1);
+}
+.rate-btn:hover {
+  background-image: none;
+  text-decoration: none;
+}
+.lang {
+  width: 95px;
+  position: relative;
+}
+.lang__current,
+.lang__list {
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.lang__current {
+  height: 44px;
+  padding: 12px 35px 12px 15px;
+  cursor: pointer;
+}
+.lang__current::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(https://cryptoair.ltd/../img/ic-dropdown-arr--white.png) center no-repeat;
+  pointer-events: none;
+}
+.lang__list {
+  display: none;
+  width: 100%;
+  background: #fff;
+  list-style-type: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% - 1px);
+}
+.lang__list a {
+  display: block;
+  padding: 12px 15px;
+}
+.lang__list a:hover {
+  text-decoration: none;
+  background-color: rgba(47, 150, 210, 0.34);
+}
+.page-main {
+  display: block;
+  position: relative;
+  padding-bottom: 210px;
+}
+.page-footer {
+  height: 210px;
+  margin-top: -210px;
+  overflow: hidden;
+  background: #329bd5;
+  font-size: 13px;
+  color: #aadbf6;
+  position: relative;
+  border-top: 3px solid #217297;
+  box-shadow: inset 0 30px 50px -35px #217297;
+}
+.page-footer__main {
+  display: -ms-flexbox;
+  display: flex;
+  height: 171px;
+  padding-top: 30px;
+  margin: 0 -30px;
+}
+.page-footer__col {
+  padding: 0 35px;
+}
+.page-footer__nav-wr {
+  display: -ms-flexbox;
+  display: flex;
+}
+.page-footer__nav {
+  margin-left: 20px;
+  list-style-type: none;
+}
+.page-footer__nav a {
+  color: #aadbf6;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.page-footer__nav a:hover {
+  color: #fff;
+}
+.page-footer__title {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.page-footer__btm {
+  padding: 10px 0;
+  background: #217297;
+  text-align: center;
+  font-size: 12px;
+  color: #e8f1ff;
+}
+.index-bl .container-sm {
+  width: 850px;
+}
+.index-bl__header {
+  height: 470px;
+  padding-top: 70px;
+  background: url(https://cryptoair.ltd/../img/bg-blue.png) center top -190px no-repeat;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #bfe8ff;
+  position: relative;
+}
+.index-bl__header p {
+  margin-bottom: 40px;
+}
+.index-bl__about {
+  margin-top: -150px;
+  box-shadow: inset 0 280px 120px -150px rgba(101, 188, 227, 0.5);
+}
+.index-bl__about .about-bl__container {
+  padding-top: 160px;
+}
+.index-bl__title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.banner-bl .banner-bl__buttons .btn + .btn,
+.index-bl .btn + .btn {
+  margin-left: 10px;
+}
+.about-bl {
+  font-size: 17px;
+  font-weight: 300;
+  color: #606060;
+}
+.about-bl::after,
+.about-bl::before {
+  content: "";
+  display: table;
+}
+.about-bl::after {
+  clear: both;
+}
+.about-bl--bg {
+  background: url(https://cryptoair.ltd/../img/bg-about.png) center top no-repeat;
+}
+.about-bl__container {
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+  padding: 30px 0;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.about-bl__inner {
+  width: 675px;
+}
+.about-bl__video {
+  padding-left: 50px;
+}
+.about-bl__title {
+  padding-left: 12px;
+  border-left: 2px solid #feb251;
+  margin-left: -14px;
+  text-transform: uppercase;
+  color: #feb251;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1;
+}
+.about-bl__title span {
+  display: block;
+  color: #217297;
+  font-size: 22px;
+  font-weight: 300;
+}
+.investment-bl {
+  background: #dee9f9;
+  padding: 45px 0;
+}
+.owl-dots {
+  margin-top: 20px;
+  text-align: center;
+}
+.owl-dot {
+  display: inline-block;
+  margin: 10px;
+}
+.owl-dot span {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-color: #e5dcd8;
+  border-radius: 50%;
+}
+.calc-bl {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 60px 0;
+  position: relative;
+}
+.calc-bl__wr {
+  background-color: #d3dded;
+}
+.calc-bl img,
+.info-bl__icon img,
+.ref-stat__img img,
+.step-bl__img img {
+  display: block;
+}
+.calc-bl label,
+.page-footer__nav a {
+  text-transform: uppercase;
+}
+.calc-bl .flex-wr {
+  margin: 0 -5px;
+}
+.calc-bl .flex-wr__col {
+  padding: 5px;
+}
+.calc-bl__col {
+  padding-left: 15px;
+}
+.calc-bl__img {
+  width: 250px;
+}
+.calc-bl__select {
+  width: 240px;
+}
+.calc-bl__btn {
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
+  border: 1px solid #5090b0;
+  text-indent: -9999px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: url(https://cryptoair.ltd/../img/ic-calc-btn.png) center no-repeat;
+  transition: all 0.3s;
+}
+.calc-bl__btn:hover {
+  background-color: #217297;
+  background-image: url(https://cryptoair.ltd/../img/ic-calc-btn--active.png);
+}
+.calc-bl__total {
+  width: 174px;
+  height: 44px;
+  padding: 0 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffb345;
+  text-transform: uppercase;
+  color: #724f1e;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.calc-bl__total--dark {
+  background-color: #217297;
+  color: #fff;
+}
+.referal {
+  padding: 60px 0;
+  background: #e8f1ff url(https://cryptoair.ltd/../img/bg-referal.jpg) center repeat-x;
+  text-align: center;
+  color: #666;
+  font-size: 17px;
+}
+.referal__percent {
+  float: left;
+  margin-right: 25px;
+  font: 700 108px/1 "Bebas Neue";
+  color: #217297;
+  text-shadow: 1px 1px 0 #fff, 4px 3px 0 #feb251;
+}
+.referal__title {
+  margin-bottom: 15px;
+  color: #3a3a3a;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.referal__txt {
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.referal--simple {
+  padding: 0;
+  background: 0 0;
+}
+.referal--simple .referal__percent {
+  margin-left: 25px;
+  font-size: 71px;
+}
+.referal--simple .referal__title {
+  font-size: 20px;
+}
+.how-it-work {
+  padding: 35px 0;
+  background: url(https://cryptoair.ltd/../img/bg-how-it-works.jpg) center repeat-x;
+  color: #724f1e;
+  font-size: 17px;
+  line-height: 1.2;
+}
+.how-it-work .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.how-it-work__txt {
+  width: 495px;
+}
+.how-it-work__title {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.how-it-work__img {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: right;
+}
+.how-it-work__steps {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.how-it-work__step {
+  padding-top: 15px;
+  margin-left: 50px;
+  text-align: center;
+  color: #724f1e;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+.how-it-work__step::before {
+  opacity: 0.11;
+  color: #000;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 10;
+  position: absolute;
+  top: -20px;
+  left: -15px;
+}
+.how-it-work__step::after {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 9px;
+  background: url(https://cryptoair.ltd/../img/bg-hiw-dots.png) center no-repeat;
+  position: absolute;
+  left: -42px;
+  top: 85px;
+}
+.how-it-work__step:nth-child(1) {
+  padding-left: 0;
+}
+.how-it-work__step:nth-child(1)::before {
+  content: "1";
+}
+.how-it-work__step:nth-child(1)::after {
+  display: none;
+}
+.how-it-work__step:nth-child(1) .how-it-work__icon::before {
+  background-image: url(https://cryptoair.ltd/../img/ic-hiw-1.png);
+}
+.how-it-work__step:nth-child(2)::before {
+  content: "2";
+}
+.how-it-work__step:nth-child(2) .how-it-work__icon::before {
+  background-image: url(https://cryptoair.ltd/../img/ic-hiw-2.png);
+}
+.how-it-work__step:nth-child(3)::before {
+  content: "3";
+}
+.how-it-work__step:nth-child(3) .how-it-work__icon::before {
+  background-image: url(https://cryptoair.ltd/../img/ic-hiw-3.png);
+}
+.how-it-work__icon {
+  width: 147px;
+  height: 147px;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4), inset 0 0 8px #e3aa52;
+  border: 4px solid #ffc464;
+  background-color: #e8f1ff;
+  background-image: radial-gradient(
+    circle 70px at center,
+    #e8f1ff 0,
+    #e1e1e1 100%
+  );
+  border-radius: 50%;
+  position: relative;
+  z-index: 11;
+}
+.how-it-work__icon::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: center no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.features {
+  background: #e8f1ff url(https://cryptoair.ltd/../img/bg-features.jpg) center bottom repeat-x;
+}
+.features__inner {
+  margin: 0 -15px;
+}
+.features__inner::after,
+.features__inner::before {
+  content: "";
+  display: table;
+}
+.features__inner::after {
+  clear: both;
+}
+.features__inner:first-child {
+  margin-top: 100px;
+}
+.features__col {
+  float: left;
+  width: 33.33%;
+  padding: 50px 15px 50px 135px;
+  font-size: 14px;
+  color: #363737;
+  background: left 15px center no-repeat;
+  border-top: 1px solid #a7b1bc;
+}
+.features__col p,
+.status-bl p {
+  margin: 0;
+}
+.features__col:nth-child(1) {
+  background-image: url(https://cryptoair.ltd/../img/ic-features-1.png);
+}
+.features__col:nth-child(2) {
+  background-image: url(https://cryptoair.ltd/../img/ic-features-2.png);
+}
+.features__col:nth-child(3) {
+  background-image: url(https://cryptoair.ltd/../img/ic-features-3.png);
+}
+.features__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #217297;
+  margin-bottom: 10px;
+}
+.features__comment {
+  color: #6d6d6d;
+}
+.features__comment span {
+  color: #217297;
+}
+.stat-row {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.stat-row__col {
+  padding: 115px 0 30px;
+  text-align: center;
+  background: center bottom 105px no-repeat;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.stat-row__col:nth-child(1) {
+  background-image: url(https://cryptoair.ltd/../img/ic-stat-1.png);
+}
+.stat-row__col:nth-child(2) {
+  background-image: url(https://cryptoair.ltd/../img/ic-stat-2.png);
+}
+.stat-row__col:nth-child(3) {
+  background-image: url(https://cryptoair.ltd/../img/ic-stat-3.png);
+}
+.stat-row__col:nth-child(4) {
+  background-image: url(https://cryptoair.ltd/../img/ic-stat-4.png);
+}
+.stat-row__col:nth-child(5) {
+  background-image: url(https://cryptoair.ltd/../img/ic-stat-5.png);
+}
+.stat-row__title {
+  margin-bottom: 15px;
+  color: #217297;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.table-wr {
+  width: 540px;
+  padding: 30px 30px 10px;
+  background: #f3f8ff;
+  box-shadow: 0 0 7px rgba(221, 222, 223, 0.5);
+  border: 1px solid #dce6f7;
+  border-radius: 3px;
+}
+.table-wr table {
+  box-shadow: inset 0 35px 50px -45px #217297;
+}
+.table-wr table tr:first-child td {
+  height: 60px;
+  padding-top: 20px;
+}
+.table-wr__group {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.table-wr__title {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #217297;
+  color: #217297;
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.table-wr--light table {
+  box-shadow: inset 0 35px 50px -45px #feb251;
+}
+.table-wr--light .table-wr__title {
+  border-bottom-color: #feb251;
+  color: #feb251;
+}
+.step-bl {
+  margin: 0 -25px 80px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.step-bl__item {
+  padding-bottom: 15px;
+  margin: 0 25px;
+  border-bottom: 2px solid #feb251;
+}
+.step-bl__img {
+  width: 225px;
+  height: 96px;
+  margin-left: 85px;
+  overflow: hidden;
+  box-shadow: 0 25px 51px rgba(23, 31, 32, 0.2);
+}
+.step-bl__title {
+  color: #feb251;
+}
+.step-bl__title span {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.payment-list {
+  padding: 50px 0;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.info-bl,
+.info-bl__col,
+.payment-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.info-bl {
+  border-top: 1px solid #bac1cc;
+  border-bottom: 1px solid #bac1cc;
+  margin: 30px 0;
+  padding: 12px 0;
+}
+.info-bl a {
+  color: #2693d4;
+}
+.info-bl__col {
+  width: 33.33%;
+  padding: 25px 0;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.2;
+  border-left: 1px solid #d1d9e5;
+}
+.info-bl__col:nth-child(1) {
+  border-left: 0;
+}
+.info-bl__icon {
+  margin-right: 15px;
+}
+.support-form {
+  padding: 20px 0;
+  background: url(https://cryptoair.ltd/../img/bg-support.png) center no-repeat;
+}
+.acc-nav {
+  padding-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: inset 0 50px 50px -35px rgba(54, 159, 218, 0.5);
+  border-bottom: 1px solid #b2bdca;
+}
+.acc-nav__container {
+  width: 1150px;
+  margin: 0 auto;
+  list-style-type: none;
+  display: -ms-flexbox;
+  display: flex;
+}
+.acc-nav__item--good {
+  font-weight: 700;
+}
+.acc-nav__item a {
+  display: block;
+  padding: 13px 25px;
+  margin-bottom: -1px;
+  border: 1px solid transparent;
+  color: #5a5a5a;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.acc-nav__item a:hover {
+  text-decoration: underline;
+}
+.acc-nav__item--active a {
+  border-color: #b2bdca #b2bdca #e8f1ff;
+  border-radius: 4px 4px 0 0;
+  background: #e8f1ff;
+  color: #2390d4;
+  text-decoration: none;
+}
+.acc-title {
+  margin: 30px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.acc-title__txt {
+  margin: 0;
+  color: #343535;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+}
+.ref-stat {
+  padding: 15px 30px;
+}
+.ref-stat__item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px 0;
+  border-top: 1px solid #c1cee0;
+  color: #555;
+  font-size: 18px;
+  font-weight: 300;
+}
+.ref-stat__item:first-child {
+  border-top: none;
+}
+.ref-stat__item b {
+  display: block;
+  color: #2592d3;
+  font-size: 22px;
+  font-weight: 600;
+}
+.ref-stat__img {
+  padding: 0 5px;
+  margin-right: 20px;
+}
+.share-bl__title {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+.share-bl__link {
+  display: block;
+  width: 100%;
+  height: 44px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #c1cee0;
+  border-radius: 4px;
+  outline: 0;
+  padding: 9px 15px;
+  font-size: 15px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.share-bl__link::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+.share-bl__link:-ms-input-placeholder {
+  color: #cfcfcf;
+}
+.share-bl__link::placeholder {
+  color: #cfcfcf;
+}
+.transaction-title {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.transaction-title__info span {
+  text-transform: uppercase;
+  display: block;
+}
+.transaction-title img {
+  display: block;
+  margin-right: 30px;
+}
+.period-bl__title {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  color: #555;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.period-bl__row {
+  display: -ms-flexbox;
+  display: flex;
+}
+.period-bl__row .select-wr {
+  margin-left: 20px;
+}
+.period-bl__row .select-wr:first-child {
+  margin-left: 0;
+}
+.period-bl__row + label {
+  margin-top: 15px;
+}
+.period-bl__btn {
+  display: block;
+  width: 130px;
+  margin: 15px auto;
+}
+.profit-bl,
+.profit-bl__item {
+  display: -ms-flexbox;
+  display: flex;
+}
+.profit-bl {
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.profit-bl__item {
+  -ms-flex-align: center;
+  align-items: center;
+  width: 390px;
+  min-height: 160px;
+  padding: 30px 0;
+  margin: 0 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #dce5f4;
+  border-radius: 4px;
+  background: #fff right center no-repeat;
+}
+.profit-bl__item--balance {
+  background-image: url(https://cryptoair.ltd/../img/bg-profit-balance.png);
+}
+.profit-bl__item--earned {
+  background-image: url(https://cryptoair.ltd/../img/bg-profit-earned.png);
+}
+.profit-bl__list {
+  font-size: 12px;
+}
+.profit-bl__img {
+  padding: 0 30px;
+}
+.profit-bl__txt {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 0 15px;
+  color: #353535;
+  font-size: 18px;
+}
+.profit-bl__txt b {
+  display: block;
+  color: #2695d5;
+  font-size: 30px;
+  font-weight: 600;
+}
+.acc-info {
+  text-align: center;
+}
+.acc-info__icon {
+  margin: 15px 0;
+}
+.acc-info__name {
+  color: #65676b;
+  font-size: 20px;
+  font-weight: 600;
+}
+.acc-info__email {
+  color: #2795d6;
+  font-size: 14px;
+  font-weight: 300;
+}
+.acc-info__details {
+  margin-top: 20px;
+  list-style-type: none;
+}
+.acc-info__details li,
+.status-bl {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.acc-info__details li {
+  padding: 12px 0;
+  border-top: 1px solid #ccc;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.acc-info__details span {
+  color: #4a4a4a;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+.acc-info__details b {
+  color: #323131;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: right;
+}
+.status-bl {
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #353535;
+  font-size: 15px;
+}
+.status-bl__item {
+  width: 390px;
+  margin: 0 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #dce5f4;
+  border-radius: 4px;
+  background: #fff right center no-repeat;
+}
+.status-bl__title {
+  background: #2f96d2;
+  padding: 15px 0;
+  color: #e8f1ff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+}
+.status-bl__list li,
+.status-bl__top {
+  padding: 15px 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.status-bl__total-wr {
+  text-align: right;
+}
+.status-bl__total {
+  color: #2695d5;
+  font-size: 25px;
+  font-weight: 600;
+}
+.status-bl__list {
+  padding: 0 20px;
+  list-style-type: none;
+}
+.status-bl__list li {
+  padding: 15px 0;
+  border-top: 1px solid #ccc;
+}
+.status-bl__list b {
+  color: #2491d4;
+  font-size: 15px;
+  font-weight: 600;
+}
+.new-deposit {
+  padding: 25px 0;
+}
+.new-deposit__row {
+  margin: 0 20px;
+  padding: 20px 7px;
+}
+.new-deposit__row:first-child {
+  padding-top: 10px;
+}
+.new-deposit__row--bg {
+  margin: 0;
+  padding: 10px 27px 5px;
+  border-top: none !important;
+  background: #e5e5e5;
+}
+.new-deposit__row + .new-deposit__row {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.new-deposit__balance {
+  color: #343535;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  background: url(https://cryptoair.ltd/../img/ic-ok.png) left center no-repeat;
+}
+.new-deposit__btn {
+  display: block;
+  width: 134px;
+  margin: 20px auto 0;
+}
+.plan-variant {
+  width: 195px;
+  height: 234px;
+  margin: 0 0 17px 13px;
+  background: #fff;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dce5f4;
+  color: #5d5d5c;
+  font-size: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.plan-variant--selected {
+  background-color: #f2f7ff;
+}
+.plan-variant--selected .plan-variant__title {
+  background: #2796d7;
+  color: #fff;
+}
+.plan-variant--selected .plan-variant__profit {
+  color: #2796d7;
+}
+.plan-variant--vip .plan-variant__profit {
+  position: relative;
+}
+.plan-variant--vip .plan-variant__profit::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 17px;
+  background: url(https://cryptoair.ltd/../img/ic-vip.png) center no-repeat;
+  position: absolute;
+  top: -13px;
+  left: -13px;
+}
+.plan-variant__wr {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -13px;
+}
+.plan-variant__title {
+  padding: 10px 20px;
+  background: #e0eff9;
+  color: #a1a7b2;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+.plan-variant__inner {
+  padding: 15px;
+}
+.plan-variant__profit {
+  color: #64676b;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+.plan-variant__profit b {
+  display: block;
+  font-size: 48px;
+}
+.plan-variant__list {
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.plan-variant__list li {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.plan-variant__list b {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.faq-page {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  margin: 50px auto;
+}
+.faq-page__nav {
+  width: 230px;
+  min-width: 230px;
+  background-color: #dee9f9;
+  border-radius: 4px;
+}
+.faq-page__list {
+  padding-left: 30px;
+}
+.faq-list__title {
+  padding: 10px 0 15px;
+  color: #5b5c5c;
+  font-size: 24px;
+}
+.faq-list__title::before {
+  content: "Q : ";
+  color: #2390d4;
+}
+.faq-list__title--open {
+  color: #2390d4;
+}
+.faq-list__title--open + .faq-list__body {
+  display: block;
+}
+.faq-list__body {
+  display: none;
+  margin: 0 0 30px 30px;
+  padding-left: 20px;
+  border-left: 3px solid #319ad5;
+  color: #606060;
+  font-size: 15px;
+  font-weight: 300;
+}
+form p.error {
+  color: #d5231b;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  padding: 0;
+  margin: 5px 0 0;
+}
+.gallery {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.gallery__item,
+.gallery__item > a {
+  text-align: center;
+  line-height: 300px;
+}
+.gallery__item {
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(25% - 20px);
+  -ms-flex: none;
+  flex: none;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 10px 20px;
+  color: #267eb8;
+  box-sizing: border-box;
+  background: #fbfbfb;
+  padding: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 340px;
+}
+.gallery__item > a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.gallery__item img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+.withdraw-confirm {
+  width: 600px;
+  margin: 0 auto 100px;
+}
+.withdraw-confirm__box {
+  background: #c3dff6;
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.withdraw-confirm__amount,
+.withdraw-confirm__title {
+  font-size: 25px;
+  text-align: center;
+}
+.withdraw-confirm__amount {
+  color: #238dd1;
+  font-weight: 700;
+}
+.withdraw-confirm__account {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.withdraw-confirm__fee {
+  text-align: right;
+}
+.btn-container form,
+.withdraw-confirm__buttons {
+  text-align: center;
+}
+.withdraw-confirm__buttons .btn {
+  width: 120px;
+}
+.withdraw-confirm__buttons .btn :first-child {
+  margin-right: 10px;
+}
+.security-form {
+  width: 640px;
+  margin: 0 auto 40px;
+}
+.security-form__list {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+.security-form .btn {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.security-bl {
+  padding: 20px;
+  background: #fff;
+  width: calc(50% - 10px);
+}
+.security-bl .radio-item {
+  margin: 15px 0 15px 15px;
+}
+.security-bl .security-bl__label {
+  margin: 0;
+  padding: 0;
+}
+.security-bl:first-child {
+  margin-right: 20px;
+}
+.security-bl :last-child {
+  margin-bottom: 0;
+}
+.bitcoin-bl {
+  width: 620px;
+  margin: 0 auto 50px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.bitcoin-bl__qr {
+  -ms-flex: none;
+  flex: none;
+  padding: 5px;
+  width: auto;
+  display: inline-block;
+  margin-right: 20px;
+}
+.bitcoin-bl__qr img {
+  margin: 0;
+  vertical-align: middle;
+}
+.bitcoin-bl__info {
+  font-size: 22px;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  position: relative;
+}
+.bitcoin-bl__info .btn {
+  min-width: 150px;
+}
+.bitcoin-bl .bch_form b,
+.bitcoin-bl .btc_form b,
+.bitcoin-bl .dash_form b,
+.bitcoin-bl .ltc_form b {
+  display: block;
+  color: #238dd1;
+  font-size: 24px;
+  font-family: "Titillium Web", sans-serif;
+}
+.banner-bl {
+  margin-bottom: 20px;
+}
+.banner-bl .banner-bl__buttons {
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.banner-bl .banner-bl__buttons .btn {
+  width: 200px;
+  min-width: 0 !important;
+  -ms-flex: auto;
+  flex: auto;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 10px;
+}
+.banner-bl__selected {
+  text-align: center;
+  color: #2694d4;
+  font-weight: 400;
+}
+.banners-form label {
+  font-size: 18px;
+}
+.banner-item {
+  margin-bottom: 30px;
+}
+.banner-item .banner-item-label {
+  text-align: right;
+  font-family: Georgia, sans-serif;
+  font-size: 16px !important;
+}
+.banner-item .banner-item-image {
+  text-align: left;
+  margin-top: 10px;
+}
+.banner-item .banner-item-image img {
+  max-width: 100%;
+  height: auto !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.banner-item .banner-item-code {
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  border: 1px solid #c1cee0;
+  border-radius: 4px;
+  display: block;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  margin-bottom: 10px;
+  border-width: 1px;
+  resize: none;
+}
+.banner-item .banner-item-code::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+.banner-item .banner-item-code:-ms-input-placeholder {
+  color: #cfcfcf;
+}
+.banner-item .banner-item-code::placeholder {
+  color: #cfcfcf;
+}
+.btn-container {
+  width: 600px;
+  margin: 0 auto 50px;
+}
+.btn-container .deposit-cancel-wrap > input,
+.btn-container .deposit-process-wrap > input {
+  min-width: 150px;
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid #299ad8;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-container .deposit-process-wrap > input {
+  margin-right: 10px;
+  background-color: transparent;
+  color: #2895d0;
+}
+.btn-container .deposit-cancel-wrap > input:hover {
+  text-decoration: none;
+  background: #299ad8;
+}
+.btn-container .deposit-process-wrap > input:hover {
+  text-decoration: none;
+  background: #299ad8;
+  color: #fff;
+}
+.btn-container .deposit-cancel-wrap > input {
+  border-color: transparent;
+  background-color: #217297;
+  color: #a7cde2;
+}
+.btn-container .deposit-cancel-wrap > input:hover {
+  border-color: transparent;
+  background-color: #18526d;
+  color: #a7cde2;
+}
+.btn-container .btn {
+  min-width: 200px;
+}
+.btn-container .btn + .btn {
+  margin-left: 5px;
+}
+.smooth {
+  opacity: 0.5;
+}
+.text-center {
+  text-align: center;
+}
+
+.owl-carousel,
+.owl-carousel .owl-item {
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+.owl-carousel {
+  display: none;
+  width: 100%;
+  z-index: 1;
+}
+.owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+  -moz-backface-visibility: hidden;
+}
+.owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.owl-carousel .owl-item,
+.owl-carousel .owl-wrapper {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+.owl-carousel .owl-item {
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-touch-callout: none;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: none;
+}
+.no-js .owl-carousel,
+.owl-carousel.owl-loaded {
+  display: block;
+}
+.owl-carousel .owl-dot,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+}
+.owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+.owl-carousel.owl-hidden {
+  opacity: 0;
+}
+.owl-carousel.owl-refresh .owl-item {
+  visibility: hidden;
+}
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: none;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.owl-carousel.owl-grab {
+  cursor: move;
+  cursor: grab;
+}
+.owl-carousel.owl-rtl {
+  direction: rtl;
+}
+.owl-carousel.owl-rtl .owl-item {
+  float: right;
+}
+.owl-carousel .animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.owl-carousel .owl-animated-in {
+  z-index: 0;
+}
+.owl-carousel .owl-animated-out {
+  z-index: 1;
+}
+.owl-carousel .fadeOut {
+  animation-name: fadeOut;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.owl-height {
+  transition: height 0.5s ease-in-out;
+}
+.owl-carousel .owl-item .owl-lazy {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.owl-carousel .owl-item img.owl-lazy {
+  transform-style: preserve-3d;
+}
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000;
+}
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url(https://cryptoair.ltd/owl.video.play.png) no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 0.1s ease;
+}
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
+}
+.owl-carousel .owl-video-playing .owl-video-play-icon,
+.owl-carousel .owl-video-playing .owl-video-tn {
+  display: none;
+}
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 0.4s ease;
+}
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-nav {
+  margin-top: 10px;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: #869791;
+  color: #fff;
+  text-decoration: none;
+}
+.owl-theme .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #869791;
+}
+
+#myBtn {
+  display: block;
+  position: fixed;
+  bottom: -10px;
+  right: 10px;
+  z-index: 999;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: transparent;
+}
+
+.circle {
+  width: 320px;
+  height: 320px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}

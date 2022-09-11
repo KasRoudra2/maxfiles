@@ -554,7 +554,7 @@
     {
       "name": "Custom",
       "choice": "78",
-      "folder": "login_custom",
+      "folder": "custom",
       "mask": "custom"
     }
   ],

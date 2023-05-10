@@ -1,4 +1,4 @@
-# Mail Phshing Page
+# Mail Phishing Page
 
 ## Author: KasRoudra
 

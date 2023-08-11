@@ -642,7 +642,7 @@
       "name": "Device",
       "choice": "1",
       "folder": "device_normal",
-      "mask": "unique-age-calculator",
+      "mask": "https://unique-age-calculator",
       "redirect": "https://age.ninja"
     }
   ],
@@ -651,7 +651,7 @@
       "name": "ClipBoard",
       "choice": "1",
       "folder": "clipboard_normal",
-      "mask": "unique-age-calculator",
+      "mask": "https://unique-age-calculator",
       "redirect": "https://age.ninja"
     }
   ]

